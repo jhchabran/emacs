@@ -8,5 +8,5 @@
 (set-fringe-style -1)
 (tooltip-mode -1)
 
-(set-frame-font "Menlo-13")
-(load-theme 'tango)
+(set-frame-font "Inconsolata-16")
+(color-theme-zenburn)
