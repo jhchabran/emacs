@@ -24,6 +24,7 @@
         (:name ruby-compilation :type elpa)
         (:name color-theme)
         (:name color-theme-zenburn)
+        (:name color-theme-twilight)
         (:name css-mode 
                :type elpa 
                :after (lambda () (css-mode-hook)))

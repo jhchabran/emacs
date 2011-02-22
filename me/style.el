@@ -5,8 +5,10 @@
 (blink-cursor-mode t)
 (show-paren-mode t)
 (column-number-mode t)
-(set-fringe-style -1)
+(set-fringe-style "left-only")
 (tooltip-mode -1)
 
 (set-frame-font "Inconsolata-16")
-(color-theme-zenburn)
+
+(load-file "~/.emacs.d/el-get/color-theme-twilight/color-theme-twilight.el")
+(color-theme-twilight)

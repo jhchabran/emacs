@@ -13,3 +13,5 @@
      (set-face-foreground 'magit-diff-del "red3")))
 
 (define-key emacs-lisp-mode-map (kbd "A-r") 'eval-buffer)
+
+(autoload 'paredit-mode "paredit" "" t)
