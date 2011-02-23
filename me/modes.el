@@ -3,7 +3,7 @@
 (load "me/css")
 (load "me/yaml")
 
-;;(setq textmate-find-files-command "git ls-tree --full-tree --name-only -r HEAD")
+(setq textmate-find-files-command "git ls-tree --full-tree --name-only -r HEAD")
 
 ;; magit
 (eval-after-load 'magit
@@ -18,3 +18,4 @@
 (add-hook 'emacs-lisp-mode-hook       (lambda () (paredit-mode +1)))
 (add-hook 'lisp-mode-hook             (lambda () (paredit-mode +1)))
 (add-hook 'lisp-interaction-mode-hook (lambda () (paredit-mode +1)))
+

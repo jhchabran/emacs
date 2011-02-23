@@ -1,0 +1,12 @@
+Say hello to my emacs configuration >:] 
+
+While reading my setup, beware of : 
+ * I'm a Dvorak user, that should explain some weird keybindings. 
+ * Many emacs defaults bindings are overriden ( http://xahlee.org/emacs/ergonomic_emacs_layout_dvorak_5.3.4.png )
+ * I'm a rookie Emacs user 
+
+I borrowed a lot to those setups, thanks to their authors : 
+ * https://github.com/defunkt/emacs
+ * https://github.com/diasjorge/ergoemacs
+ 
+
