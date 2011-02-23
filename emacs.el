@@ -4,6 +4,5 @@
 (load "me/packages")
 (load "me/style")
 (load "me/modes")
-(load "me/bindings")
 (load "me/vendor")
-
+(load "me/bindings")
