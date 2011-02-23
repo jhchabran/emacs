@@ -19,7 +19,9 @@
         (:name sass-mode :type elpa)
         (:name haml-mode :type elpa)
         (:name gist :type elpa)
-        (:name paredit :type elpa)
+        (:name paredit 
+               :type elpa
+               :after (lambda () (paredit-mode)))
         (:name inf-ruby  :type elpa)
         (:name ruby-compilation :type elpa)
         (:name color-theme)
