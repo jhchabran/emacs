@@ -14,7 +14,6 @@
         (:name js2-mode :type elpa)
         (:name clojure-mode :type elpa)
         (:name clojure-test-mode :type elpa)
-        (:name rinari :type elpa)
         (:name magit :type elpa)
         (:name sass-mode :type elpa)
         (:name haml-mode :type elpa)
@@ -55,6 +54,7 @@
                :type git 
                :url "https://github.com/defunkt/coffee-mode.git"
                :features coffee-mode)
+        (:name rinari)
         
   ))
 (el-get 'sync)
